@@ -57,8 +57,6 @@ request.interceptors.response.use(function (response) {
 
       return request(error.config)
     } catch (error) {
-      console.log(error)
-
       redirenctLogin()
       // router.push('/login')
     }
